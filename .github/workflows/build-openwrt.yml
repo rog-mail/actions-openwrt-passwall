@@ -13,6 +13,7 @@ on:
     types: [published]
   push:
     branches:
+      - main
       - dev-lean-lede
     paths:
       - '.config'
